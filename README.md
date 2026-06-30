@@ -25,7 +25,7 @@ cp .env.example .env
 
 2. Editar `.env` con sus credenciales de MySQL:
 ```
-DB_HOST=localhost
+DB_HOST=aws-rds-endpoint
 DB_PORT=3306
 DB_USER=root
 DB_PASSWORD=tu_password
